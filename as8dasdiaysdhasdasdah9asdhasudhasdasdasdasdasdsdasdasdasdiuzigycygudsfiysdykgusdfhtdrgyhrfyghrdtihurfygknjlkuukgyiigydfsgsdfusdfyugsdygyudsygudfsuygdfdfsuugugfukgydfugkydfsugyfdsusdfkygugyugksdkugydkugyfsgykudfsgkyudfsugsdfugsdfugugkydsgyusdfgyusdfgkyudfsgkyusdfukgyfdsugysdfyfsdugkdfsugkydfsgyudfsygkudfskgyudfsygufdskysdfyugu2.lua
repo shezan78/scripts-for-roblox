@@ -60,7 +60,7 @@ RunService:BindToRenderStep("AimLock", 0, function()
     end)
 		game.Players.LocalPlayer.Chatted:Connect(
 			function(L_114_arg0)
-				if L_114_arg0 == "/e res" then
+				if L_114_arg0 == "/e cool" then
 local RunService = game:GetService("RunService")
 
 RunService.Heartbeat:Connect(function()
