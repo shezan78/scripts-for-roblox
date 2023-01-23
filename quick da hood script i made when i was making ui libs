@@ -1,0 +1,53 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shezan78/ShezanLib/main/ShezansUILibSource.lua'))()
+
+local Window = Rayfield:CreateWindow({
+	Name = "Test",
+	LoadingTitle = "Loading Shezans GUI",
+	LoadingSubtitle = "by Shezan",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = "Shezanscool",
+		FileName = "Shezans Lib"
+	},
+	KeySystem = true, -- Set this to true to use their key system
+	KeySettings = {
+		Title = "Shezan Hub",
+		Subtitle = "Key System",
+		Note = "Key is shezan",
+		SaveKey = false,
+		Key = "shezan"
+	}
+})
+
+Rayfield:Notify("Whitelist", "Checking for whitelist. . .", 4483362458)
+
+local Tab = Window:CreateTab("Test", 4483362458)
+local Section = Tab:CreateSection("Test")
+
+local Button = Tab:CreateButton({
+	Name = "Test button, Check console!",
+	Callback = function()
+		print("Test button!")
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Camlock",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/Smooth%20lock%2C%20dont%20use%2C%20use%20the%20GUI%20attached%20to%20the%20loadstring%20in%20readme.lua", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Streamable",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/Silentaim%20Dont%20use.lua", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Anti lock - Other features too!",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/GUI%20dont%20use%2C%20use%20the%20loadstring%20attached%20to%20readme.lua"))()
+	end,
+})
