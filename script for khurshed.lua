@@ -41,7 +41,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
 	Name = "Pink dot lock Keybind = Q or C",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezans2wsalt/addontokhurshedsscript/main/Dot%20lock%20script%20pink%201.lua", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Pink%20Dot%20lock%201.lua", true))()
 	end,
 })
 
