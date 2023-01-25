@@ -39,6 +39,20 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+	Name = "Pink dot lock Keybind = Q or C",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezans2wsalt/addontokhurshedsscript/main/Dot%20lock%20script%20pink%201.lua", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Pink dot lock 2 Keybind = Q",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezans2wsalt/addontokhurshedsscript/main/Pink%20dot%20lock%20script2.lua", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
 	Name = "Hat gui - gives free limiteds to you that you can only see",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/Hat%20Gui.lua", true))()
